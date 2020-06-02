@@ -12,7 +12,10 @@ body {
 /* styles for header*/
 header {
     padding: 20px 35px;
-    background-color: #39a6b2
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* styles for h1*/
@@ -21,7 +24,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 /*styles for header h1 a*/
 header a {
@@ -31,7 +33,6 @@ header a {
 
 /*styles for nav*/
 header nav {
-    float:right;
     margin: 7px 0;
 }
 
