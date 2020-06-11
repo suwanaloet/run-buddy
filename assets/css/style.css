@@ -355,8 +355,21 @@ section {
     flex: 1;
 }
 
-.trainer img {
+.trainer-img {
     width: 100%;
+    min-height: 300px;
+}
+
+.trainer-1 {
+    background-image: url("run-buddy/assets/images/trainer-1.jpg");
+}
+
+.trainer-2 {
+    background-image: url("run-buddy/assets/images/trainer-2.jpg");
+}
+
+.trainer-3 {
+    background-image: url("run-buddy/assets/images/trainer-3.jpg");
 }
 
 .trainer-bio {
